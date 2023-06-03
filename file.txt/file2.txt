@@ -1,0 +1,89 @@
+ospep@OscarHP MINGW64 /C/Users/ospep
+$ cd workspace
+
+ospep@OscarHP MINGW64 /C/Users/ospep/workspace (master)
+$ ls -al
+total 12
+drwxr-xr-x 1 ospep 197609 0 May 27 21:28 ./
+drwxr-xr-x 1 ospep 197609 0 May 28 15:31 ../
+drwxr-xr-x 1 ospep 197609 0 May 27 21:53 .git/
+drwxr-xr-x 1 ospep 197609 0 May 27 00:30 file.txt/
+-rw-r--r-- 1 ospep 197609 0 May 27 21:28 file2.txt
+
+ospep@OscarHP MINGW64 /C/Users/ospep/workspace (master)
+$ git add .
+
+ospep@OscarHP MINGW64 /C/Users/ospep/workspace (master)
+$ git commit -m 'CarolinaPenaL'
+[master (root-commit) 4682f90] CarolinaPenaL
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 file2.txt
+
+ospep@OscarHP MINGW64 /C/Users/ospep/workspace (master)
+$ git log
+commit 4682f90ae54428ae28c46c263dbba9f9d0ef1210 (HEAD -> master)
+Author: CarolinaPenaL <apena150@estudiantes.areandina.edu.co>
+Date:   Sun May 28 16:04:46 2023 -0500
+
+    CarolinaPenaL
+
+ospep@OscarHP MINGW64 /C/Users/ospep/workspace (master)
+$ git log -p
+commit 4682f90ae54428ae28c46c263dbba9f9d0ef1210 (HEAD -> master)
+Author: CarolinaPenaL <apena150@estudiantes.areandina.edu.co>
+Date:   Sun May 28 16:04:46 2023 -0500
+
+    CarolinaPenaL
+
+diff --git a/file2.txt b/file2.txt
+new file mode 100644
+index 0000000..e69de29
+
+ospep@OscarHP MINGW64 /C/Users/ospep/workspace (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+ospep@OscarHP MINGW64 /C/Users/ospep/workspace (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+ospep@OscarHP MINGW64 /C/Users/ospep/workspace (master)
+$ git log -p
+commit 4682f90ae54428ae28c46c263dbba9f9d0ef1210 (HEAD -> master)
+Author: CarolinaPenaL <apena150@estudiantes.areandina.edu.co>
+Date:   Sun May 28 16:04:46 2023 -0500
+
+    CarolinaPenaL
+
+diff --git a/file2.txt b/file2.txt
+new file mode 100644
+index 0000000..e69de29
+
+ospep@OscarHP MINGW64 /C/Users/ospep/workspace (master)
+$ git log -p
+commit 4682f90ae54428ae28c46c263dbba9f9d0ef1210 (HEAD -> master)
+Author: CarolinaPenaL <apena150@estudiantes.areandina.edu.co>
+Date:   Sun May 28 16:04:46 2023 -0500
+
+    CarolinaPenaL
+
+diff --git a/file2.txt b/file2.txt
+new file mode 100644
+index 0000000..e69de29
+
+ospep@OscarHP MINGW64 /C/Users/ospep/workspace (master)
+$ git log -p
+commit 4682f90ae54428ae28c46c263dbba9f9d0ef1210 (HEAD -> master)
+Author: CarolinaPenaL <apena150@estudiantes.areandina.edu.co>
+Date:   Sun May 28 16:04:46 2023 -0500
+
+    CarolinaPenaL
+
+diff --git a/file2.txt b/file2.txt
+new file mode 100644
+index 0000000..e69de29
+
+ospep@OscarHP MINGW64 /C/Users/ospep/workspace (master)
+$
